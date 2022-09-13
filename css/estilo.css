@@ -1,0 +1,6 @@
+@media only screen and (max-width: 768px){
+	.navbar-brand{width: 100px;}
+	.margT-5{margin-top: 50px}
+}
+.centrar{text-align: center;}
+.bgPrimario{background-color: lightgray;}
