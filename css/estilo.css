@@ -1,6 +1,13 @@
-@media only screen and (max-width: 768px){
-	.navbar-brand{width: 100px;}
-	.margT-5{margin-top: 50px}
+h1{color: blue;}
+.gridIndex{
+	display: grid;
+	grid-template-areas: 
+	"header"
+	"main"
+	"footer";
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(3, auto);
 }
-.centrar{text-align: center;}
-.bgPrimario{background-color: lightgray;}
+header{grid-area: header;}
+main{grid-area: main;}
+footer{grid-area: footer;}
